@@ -1,10 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-// import './SimpleCard.scss';
+import './SimpleCard.scss';
 
 const SimpleCard = () => (
-  <div>
-      only Card
+  <div class="simple-card card">
+      <h2 class="card-title">Hirable Rooms</h2>
+      <p class="card-desc">Anything room at green square</p>
   </div>
 );
 

@@ -1,0 +1,10 @@
+.image-card {
+    .img-container {
+        background-image: url("https://images.unsplash.com/photo-1578503439976-f0c1f7daf1cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+        background-repeat: no-repeat;
+        background-size: 100% 130%;
+        position: relative;
+        width: 100%;
+        padding-top: 75%; /* 4:3 Aspect Ratio */
+    }
+}

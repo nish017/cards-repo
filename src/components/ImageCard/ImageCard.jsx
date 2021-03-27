@@ -1,10 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-// import './ImageCard.scss';
+import './ImageCard.scss';
 
 const ImageCard = () => (
-  <div>
-      Card + image
+  <div class="image-card card">
+      <div class="img-container">
+      </div>
+      <div class="desc-panel">
+        <h2 class="card-title">Hirable Rooms</h2>
+        <p class="card-desc">Anything room at green square</p>
+      </div>
   </div>
 );
 
